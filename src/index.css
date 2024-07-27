@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    color: white;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+    flex-wrap: wrap;
+    background-image: url(/images/bg2.jpg);
+    object-fit: contain;
+    background-repeat: no-repeat;    
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.08);
+    
+}
+
+.card-img{
+    height: 100px;
+    width: 150px;
+    margin-left: 75px;
+    border-radius: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.543);
+}
+
+.pro{
+    width: 25%;
+    background: rgba(5, 186, 5, 0.854);
+    border-radius: 20px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.name{
+    margin-top: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.city{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.role{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #0984e3;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.buttons button:nth-child(2){
+    background: transparent;
+    border: 1px solid #0984e3;
+    color: #0984e3;
+}
+
+.buttons button{
+    padding: 5px;
+    background: #0984e3;
+    border: transparent;
+    border-radius:5px;
+    cursor: pointer;
+    color: white;
+}
+.skills h6{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: 8px;
+    color: #0984e3;
+}
+.skills ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items:center;
+    gap: 8px;
+    margin-left: 8px;
+    margin-bottom: 15px;
+}
+
+.skills ul li{
+    background: rgba(255, 255, 255, 0.174);
+    padding: 4px;
+    backdrop-filter: blur(10px);
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #0984e3;
+    color: white;
+}
+.offline{
+    background: rgb(216, 60, 60);
+}
+
+.user-card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    background-image: linear-gradient(
+        120deg,
+        rgba(255,255,255,0.3),
+        rgba(0,0,0,0.2)
+    );
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    background-size: 18px;
+    
+}
